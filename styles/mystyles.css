@@ -1,0 +1,112 @@
+/* STYLES-- FOR ALL SHEETS*/
+h1 {
+    color: black;
+    font-size: 3em;
+    font-weight: bolder;
+    text-decoration: underline;
+    /* border-top: 1px solid black;
+    border-bottom: 1px solid black; */
+}
+
+table {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 4px;
+}
+
+#header {
+    text-align: center;
+    background-color: cornflowerblue;
+    opacity: .6;
+    Font-style: normal;
+    font-family: Didot, serit;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#footer {
+    text-align: center;
+    padding: 40px
+}
+
+#indeximage {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 20px
+}
+
+#indexcopy {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 20px;
+    text-align: justify;
+    text-align: justify;
+    font-size: 20px;
+    font-style: normal;
+    font-family: Helvetica, sans-serif;
+    text-indent: 10px;
+}
+#aboutcenter {text-align: center; margin: auto; width: 60%}
+
+
+.copy {
+    margin-left: 20px;
+    margin-right: 50px;
+    text-align: justify;
+    font-size: 16px;
+    font-style: normal;
+    font-family: Helvetica, sans-serif;
+    text-indent: 10px;
+}
+
+.centered {
+    text-align: center
+}
+
+.subheading {
+    text-align: center;
+    padding: 10px;
+    width: 30%;
+    margin: auto;
+    border-style: dashed;
+    border-color: black;
+    border-width: 1px
+}
+
+/* NAV BAR */
+#navbar ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #104050;
+        }
+
+        #navbar ul li {
+            float: left;
+            font-size: 16px;
+            }
+
+        #navbar ul li a {
+            display: block;
+            color: snow;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            }
+
+        #navbar ul li a:hover {
+            background-color: lightslategray;
+            }
+
+
+/* LAYOUT-- FOR ALL SHEETS */

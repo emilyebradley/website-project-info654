@@ -1,17 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset=“UTF-8”>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bradley Image Archive</title>
-    <style>
-        /* #header,
-        footer #header #footer #navbar .row {
-            display: flex
-        } */
+    <meta name="author" content="Emily Bradley">
+    <meta name="keywords" content="HTML, photography">
+    <meta name="description" content="A personal photography archive">
 
-        
+    <title>Bradley Image Archive</title>
+    <link rel="stylesheet" type="text/css" href="styles/mystyles.css">
+    
+    <style>
+
         .row {
             display: flex
         }
@@ -20,8 +21,8 @@
             flex: 40%;
             padding: 20px
         }
-
-        /* .emilyclass{} */
+        .image {width: 75%}
+        
     </style>
 </head>
 
@@ -32,28 +33,35 @@
     </div>
 
     <div id="navbar">
+        <ul>
+	        <li><a href="index.html">Home</a></li>
+	        <li><a href="photographyarchive.html">Photography Archive</a></li>
+	        <li><a href="travelandcamerainfo.html">Locations + Equipment</a></li> 
+	        <li><a href="aboutme.html">About</a></li>
+        </ul>
     </div>
 
-    <h2>Photography Archive</h2>
+    <h2 class="subheading">Photography Archive</h2>
 
     <div class="row">
         <div class="column">
             <h3>Portraits</h3>
-            <img src="./images/girluganda.jpg" alt="girl" width="200">
+            <img src="./images/girluganda.jpg" alt="girl" class="image">
             <h3>Natural</h3>
-            <img src="./images/boatinwater.jpg" alt="boat in water" width="200">
+            <img src="./images/boatinwater.jpg" alt="boat in water" class="image">
             <h3>Urban and Industrial</h3>
-            <img src="./images/shadows.jpg" alt="street in Kotor" width="200">
+            <img src="./images/shadows.jpg" alt="street in Kotor" class="image">
         </div>
 
         <div class="column">
             <h3>Street Scene</h3>
-            <img src="./images/montenegrokitten.jpg" alt="cat" width="200">
+            <img src="./images/montenegrokitten.jpg" alt="cat" class="image">
             <h3>Textures</h3>
-            <img src="./images/scales.jpg" alt="fish" width="200">
+            <img src="./images/scales.jpg" alt="fish" class="image">
+            <h3>Film</h3>
+            <img src="./images/glacier.jpg" alt="glacier" class="image">
         </div>
     </div>
-
 
     <div id="footer">
         <h3> © Emily Bradley. 2025 </h3>
