@@ -4,13 +4,12 @@ h1 {
     font-size: 3em;
     font-weight: bolder;
     text-decoration: underline;
-    /* border-top: 1px solid black;
-    border-bottom: 1px solid black; */
 }
 
 table {
     border: 1px solid black;
     border-radius: 5px;
+    margin: auto
 }
 
 th,
@@ -55,8 +54,8 @@ td {
     font-family: Helvetica, sans-serif;
     text-indent: 10px;
 }
-#aboutcenter {text-align: center; margin: auto; width: 60%}
 
+#aboutcenter {text-align: center; margin: auto; width: 60%}
 
 .copy {
     margin-left: 20px;
@@ -83,30 +82,28 @@ td {
 }
 
 /* NAV BAR */
+    /*Note: I consulted w3schools for guidance on creating horizontal nav bar (i.e. overflow, float: left, etc.)*/
 #navbar ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: #104050;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #104050;
+    }
+
+    #navbar ul li {
+        float: left;
+        font-size: 16px;
         }
 
-        #navbar ul li {
-            float: left;
-            font-size: 16px;
-            }
+    #navbar ul li a {
+        display: block;
+        color: snow;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        }
 
-        #navbar ul li a {
-            display: block;
-            color: snow;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-            }
-
-        #navbar ul li a:hover {
-            background-color: lightslategray;
-            }
-
-
-/* LAYOUT-- FOR ALL SHEETS */
+    #navbar ul li a:hover {
+        background-color: lightslategray;
+        }

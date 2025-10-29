@@ -10,9 +10,10 @@
 
     <title>Bradley Image Archive</title>
     <link rel="stylesheet" type="text/css" href="styles/mystyles.css">
-    
-    <style>
 
+    <style>
+        /* Note: I consulted with the tech tutor to understand how to use flex to create these columns. 
+            Design note: I would add additional html pages linked to each of these photo categories (for all other images) in the future, but wanted to stay in the perameter of assignment, with 3-5 html pages.*/
         .row {
             display: flex
         }
@@ -21,8 +22,10 @@
             flex: 40%;
             padding: 20px
         }
-        .image {width: 75%}
-        
+
+        .image {
+            width: 75%
+        }
     </style>
 </head>
 
@@ -34,10 +37,10 @@
 
     <div id="navbar">
         <ul>
-	        <li><a href="index.html">Home</a></li>
-	        <li><a href="photographyarchive.html">Photography Archive</a></li>
-	        <li><a href="travelandcamerainfo.html">Locations + Equipment</a></li> 
-	        <li><a href="aboutme.html">About</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="photographyarchive.html">Photography Archive</a></li>
+            <li><a href="travelandcamerainfo.html">Locations + Equipment</a></li>
+            <li><a href="aboutme.html">About</a></li>
         </ul>
     </div>
 
@@ -45,21 +48,21 @@
 
     <div class="row">
         <div class="column">
-            <h3>Portraits</h3>
-            <img src="./images/girluganda.jpg" alt="girl" class="image">
-            <h3>Natural</h3>
-            <img src="./images/boatinwater.jpg" alt="boat in water" class="image">
-            <h3>Urban and Industrial</h3>
-            <img src="./images/shadows.jpg" alt="street in Kotor" class="image">
+            <h2>Portraits</h2>
+                <img src="./images/girluganda.jpg" alt="girl" class="image">
+            <h2>Natural</h2>
+                <img src="./images/boatinwater.jpg" alt="boat in water" class="image">
+            <h2>Urban and Industrial</h2>
+                <img src="./images/shadows.jpg" alt="street in Kotor" class="image">
         </div>
 
         <div class="column">
-            <h3>Street Scene</h3>
-            <img src="./images/montenegrokitten.jpg" alt="cat" class="image">
-            <h3>Textures</h3>
-            <img src="./images/scales.jpg" alt="fish" class="image">
-            <h3>Film</h3>
-            <img src="./images/glacier.jpg" alt="glacier" class="image">
+            <h2>Street Scene</h2>
+                <img src="./images/montenegrokitten.jpg" alt="cat" class="image">
+            <h2>Textures</h2>
+                <img src="./images/scales.jpg" alt="fish" class="image">
+            <h2>Film</h2>
+                <img src="./images/glacier.jpg" alt="glacier" class="image">
         </div>
     </div>
 
